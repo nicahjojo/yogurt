@@ -1,32 +1,16 @@
-import Image from "next/image";
 import "../globals.css";
 
-export default function About() {
+export default function Contact() {
   return (
-    <section className="page-section">
-      <div className="page-container">
-        <div className="page-text">
-          <h1>About PatFarm</h1>
-          <p>
-            At <strong>PatFarm</strong>, we believe that great yogurt starts
-            with simple, honest ingredients. Our journey began with a passion
-            for crafting creamy, flavorful, and nutritious yogurt made from
-            farm-fresh milk and real fruits.
-          </p>
-          <p>
-            Every cup is packed with love, probiotics, and natural goodness —
-            bringing you a taste that’s as wholesome as it is delicious.
-          </p>
-        </div>
-        <div className="page-image">
-          <Image
-            src="/yogo3.jpg"
-            alt="About PatFarm Yogurt"
-            width={600}
-            height={400}
-            className="rounded-image"
-          />
-        </div>
+    <section className="page-section contact-page">
+      <h1>Contact Us</h1>
+      <p>
+        Have a question, order, or feedback? We’d love to hear from you!
+      </p>
+      <div className="contact-info">
+        <p><strong>Email:</strong> joymonica924@gmail.com</p>
+        <p><strong>Phone:</strong> 0726 588 450</p>
+        <p><strong>Location:</strong> Nairobi, Kenya</p>
       </div>
     </section>
   );
