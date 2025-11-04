@@ -1,21 +1,22 @@
 import "../globals.css";
 
-export default function Login() {
+export default function Services() {
   return (
-    <section className="auth-section">
-      <div className="auth-container">
-        <h1>Welcome Back 👋</h1>
-        <p>Sign in to continue to PatFarm Yogurt</p>
-
-        <form className="auth-form">
-          <input type="email" placeholder="Email" required />
-          <input type="password" placeholder="Password" required />
-          <button type="submit" className="auth-btn">Login</button>
-        </form>
-
-        <p className="auth-switch">
-          Don’t have an account? <a href="/signup">Sign up here</a>
-        </p>
+    <section className="page-section">
+      <h1>Our Services</h1>
+      <div className="service-grid">
+        <div className="service-card">
+          <h3>Yogurt Making Classes</h3>
+          <p>Learn how to craft your own yogurt with our guided sessions.</p>
+        </div>
+        <div className="service-card">
+          <h3>Yogurt Tasting Events</h3>
+          <p>Enjoy curated tastings featuring seasonal flavors.</p>
+        </div>
+        <div className="service-card">
+          <h3>Custom Orders</h3>
+          <p>Order in bulk or design your own flavor combinations.</p>
+        </div>
       </div>
     </section>
   );
